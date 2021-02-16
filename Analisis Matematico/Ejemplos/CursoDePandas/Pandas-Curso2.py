@@ -16,4 +16,7 @@ print("\n"*5)
 print("****Estadísticas solo numeros****")
 print(nuevo.describe(include=[np.number]))
 print("\n"*5)
+print("****Estadísticas sin N/A o NR***")
+print(nuevo.describe())
+print(list(nuevo))
 
