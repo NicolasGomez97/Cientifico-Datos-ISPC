@@ -27,7 +27,7 @@ class Carro():
 #Instancia de clase  --> nombre_instancia = clase()
 auto = Carro()
  
-print("La marca del auto: ",auto.marca)
+print("La marca del auto: ",Carro.marca)
 print("Longitud: ",auto.longitud)
 print("Número de Ruedas: ",auto.ruedas)
 print("Motor: ",auto.motor)
